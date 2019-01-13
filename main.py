@@ -246,8 +246,8 @@ else:
 
 #	APPLYING COUPON
 
-#       driver.find_element_by_id("insurance_box").click()
-#       time.sleep(1)	
+        driver.find_element_by_id("insurance_box").click()
+        time.sleep(1)	
 	search5=driver.find_element_by_id("coupon")
         search5.send_keys("TRVLHPY")  
         time.sleep(1)
