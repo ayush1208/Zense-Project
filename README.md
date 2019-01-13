@@ -15,6 +15,12 @@ Youtube links for my automated code for flight checker:
 
 2.Selenium installed in python
 
+3.You need chromedriver installed and saved in the same file as the code is in 
+  Links for installing chrome-driver:
+  https://chromedriver.storage.googleapis.com/index.html?path=2.45/(Link for downloading) 
+
+  
+
 #                     INSTRUCTIONS
 1.Open Terminal
 
