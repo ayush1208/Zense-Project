@@ -5,9 +5,9 @@ A project for Zense
 
 Youtube links for my automated code for flight checker:
 
-1.https://youtu.be/3xuKRrYd_JQ(For the first part of my code)
+1.https://youtu.be/3xuKRrYd_JQ (For the first part of my code)
 
-2.https://youtu.be/pEULCvxEXZ0(For the second part of my code)
+2.https://youtu.be/pEULCvxEXZ0 (For the second part of my code)
 
 #                     PRE-REQUISITES
 
