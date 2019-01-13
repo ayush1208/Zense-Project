@@ -19,7 +19,7 @@ Youtube links for my automated code for flight checker:
   
   Links for installing chrome-driver:
   
-  https://chromedriver.storage.googleapis.com/index.html?path=2.45/(Link for downloading) 
+  https://chromedriver.storage.googleapis.com/index.html?path=2.45/ (Link for downloading) 
 
   
 
