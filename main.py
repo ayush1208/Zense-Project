@@ -83,7 +83,7 @@ if type=="one way":
 	driver.find_element_by_id("insurance_box").click()
         time.sleep(1)
 	searchct5=driver.find_element_by_id("coupon")
-        searchct5.send_keys("TRVLHPY")	#Applying coupon
+        searchct5.send_keys("TRVLNOW")	#Applying coupon
         time.sleep(1)
         driver.find_element_by_id("check_saving").click()
         time.sleep(4)
@@ -148,16 +148,19 @@ if type=="one way":
         driver2.find_element_by_css_selector("input.fr").click()#Going to fare page
         time.sleep(3)
 
-#	Coupon Amazon play(if available)
+#	Applying Coupon
         
-
+#       searchgo3=driver2.find_element_by_id("goPromo")
+#       searchgo3.send_keys("WINTER")
+#       time.sleep(1)
+#       driver2.find_element_by_id("gi_search_promo").click()
+#       time.sleep(1)
+#       driver2.find_element_by_xpath("//*[@id='content']/div/div[2]/div/div[3]/div[1]").click()
+	
+#	Amazon Pay
+	
 	if amazon=="yes":
-                searchgo3=driver2.find_element_by_id("goPromo")
-                searchgo3.send_keys("GOAMAZON")
-                time.sleep(1)
-                driver2.find_element_by_id("gi_search_promo").click()
-                time.sleep(1)
-                driver2.find_element_by_xpath("//*[@id='content']/div/div[2]/div/div[3]/div[2]/div/div/div[2]/button").click()
+		print "You get an additional discount of upto Rupees 600 on GOIBIBO"
 
 #				ROUND TRIP					
 
@@ -249,7 +252,7 @@ else:
         driver.find_element_by_id("insurance_box").click()
         time.sleep(1)	
 	search5=driver.find_element_by_id("coupon")
-        search5.send_keys("TRVLHPY")  
+        search5.send_keys("TRVLNOW")  
         time.sleep(1)
         driver.find_element_by_id("check_saving").click()
 	time.sleep(4)
@@ -335,20 +338,25 @@ else:
 	driver2.find_element_by_css_selector("input.fr").click()#Going into the fare page
         time.sleep(2)
 
-#	Checking for Amazon Pay
+#	Applying Coupon
 
+#       searchgo3=driver2.find_element_by_id("goPromo")
+#       searchgo3.send_keys("WINTER")
+#       time.sleep(1)
+#       driver2.find_element_by_id("gi_search_promo").click()
+#       time.sleep(1)
+#       driver2.find_element_by_xpath("//*[@id='content']/div/div[2]/div/div[3]/div[2]/div/div/div[2]/button").click()
+
+#	AMAZON PAY
+	
 	if amazon=="yes":
-               searchgo3=driver2.find_element_by_id("goPromo")
-               searchgo3.send_keys("GOAMAZON")
-               time.sleep(1)
-               driver2.find_element_by_id("gi_search_promo").click()
-               time.sleep(1)
-               driver2.find_element_by_xpath("//*[@id='content']/div/div[2]/div/div[3]/div[2]/div/div/div[2]/button").click()
+		print "You get an additional discount of upto Rupees 600 on GOIBIBO"	
 
-
-time.sleep(100)
+time.sleep(50)
 driver2.close()
 driver.close()
+
+
 
 
 
